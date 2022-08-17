@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: column;
+}
+
+.topnav{
+    background-color: darkslategrey;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav a{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    float: left;
+    color: khaki;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
